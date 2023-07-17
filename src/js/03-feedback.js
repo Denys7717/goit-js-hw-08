@@ -20,7 +20,7 @@ function reset() {
     message.value = dataForm.message || '';
   }
 }
-
+//
 function onFormSubmit(event) {
   event.preventDefault();
   console.log({ email: email.value, message: message.value });
